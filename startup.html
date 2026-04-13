@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focuno - AI Focus Coach</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+    }
+
+    header h1 {
+      color: #38bdf8;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      color: #cbd5f5;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      background: #38bdf8;
+      border: none;
+      border-radius: 25px;
+      color: black;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 50px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 15px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #38bdf8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Focuno</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Master Your Focus</h2>
+  <p>Your AI-powered attention coach that helps you stay focused in a distracted world.</p>
+  <button class="btn">Get Started</button>
+</section>
+
+<section id="features" class="features">
+  <div class="card">
+    <h3>Smart Detection</h3>
+    <p>Detects when you lose focus and tracks your behavior in real-time.</p>
+  </div>
+
+  <div class="card">
+    <h3>AI Nudges</h3>
+    <p>Gives timely nudges to bring you back to focus without being annoying.</p>
+  </div>
+
+  <div class="card">
+    <h3>Focus Analytics</h3>
+    <p>Provides insights into your attention span and improvement over time.</p>
+  </div>
+
+  <div class="card">
+    <h3>Personalized Sessions</h3>
+    <p>Adapts to your focus patterns and suggests optimal study durations.</p>
+  </div>
+</section>
+
+<footer id="contact">
+  <p>© 2026 Focuno. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
